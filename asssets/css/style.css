@@ -1,0 +1,257 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Reset Global */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+p {
+    margin: 0.85rem 0;
+}
+
+/* Utility Classes */
+.text-primary {
+    color: #fff;
+}
+
+.l-heading {
+    font-size: 3rem;
+    line-height: 1.1;
+}
+
+.m-heading {
+    font-size: 1.5rem;
+    line-height: 1.1;
+}
+
+.s-heading {
+    font-size: 1rem;
+    line-height: 1.1;
+}
+
+.lead {
+    font-size: 2rem;
+    line-height: 1.1;
+}
+
+.white {
+    color: #fff;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 0.5rem 2rem;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 10rem;
+    cursor: pointer;
+    transition: background 1s ease-in-out;
+}
+
+.btn:hover {
+    background-color: rgba(0, 136, 169, 0.9);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: black;
+    padding: 2rem 10%;
+}
+
+.logo {
+    color: #fff;
+    cursor: pointer;
+}
+
+#navbar ul {
+    list-style: none;
+}
+
+#navbar ul li {
+    display: inline-block;
+    padding: 0 1.25rem;
+}
+
+#navbar li a {
+    font-size: 1rem;
+}
+
+#navbar li a:hover {
+    border-top: 3px solid #fff;
+}
+
+/* Showcase */
+#showcase {
+    background: url(/asssets/images/showcase.jpg) no-repeat center center/cover;
+    height: 100vh;
+    padding: 1rem;
+    position: relative;
+}
+
+.showcase-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center flex-end;
+    /* Overlay */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#showcase .showcase-content .l-heading {
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+#showcase .showcase-content .lead {
+    font-weight: 600;
+    padding-top: 1rem;
+}
+
+/* Sell Info */
+#sell-info {
+    background-color: #dbd8d8;
+}
+
+#sell-info .m-heading {
+    text-align: center;
+    padding: 2rem;
+    font-weight: bold;
+    letter-spacing: ;
+}
+
+/* About Product */
+#about-product {
+    padding-top: 1rem;
+}
+
+#about-product .s-heading,
+#about-product .m-heading {
+    text-align: center;
+}
+
+#about-product .m-heading {
+    padding-top: 1rem;
+}
+
+#about-product .video-product video {
+    display: block;
+    margin: 1rem auto;
+}
+
+/* Items */
+#items {
+    background-color: #fafafa;
+    display: flex;
+}
+
+#items .item {
+    flex: 1;
+    text-align: center;
+    padding: 2rem;
+}
+
+#items .item i {
+    background-color: blueviolet;
+    border-radius: 50%;
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Buy Button */
+#buy-button {
+    display: flex;
+    justify-content: center;
+}
+
+#buy-button a {
+    background-color: #2399d8;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    margin: 3rem 0;
+}
+
+/* Process */
+#process {
+    background-color: #F6F6F6;
+}
+
+#process .title {
+    padding-top: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
+
+.items {
+    display: flex;
+    padding: 3rem 0;
+}
+
+.items .item {
+    flex: 1;
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+
+.items .item:hover {
+    border-bottom: 4px solid #37B3F6;
+    transform: translateY(1px);
+}
+
+.items .item img {
+    width: 20%;
+}
+
+.process-info {
+    display: flex;
+    justify-content: center;
+}
+
+.process-info .process-box {
+    text-align: center;
+    padding: 1.4rem;
+    color: grey;
+    margin-bottom: 3rem;
+}
+
+
+.process-info .process-box:hover {
+    color: #000;
+    font-weight: bold;
+}
+
+/* Main Footer */
+#main-footer {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 2.5rem 0;
+    font-weight: bold;
+}
